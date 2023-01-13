@@ -14,8 +14,9 @@ renBtn.onclick=()=>{
 
    btn1.style.background = "rgb("+x +","+z+","+y+")";
    btn1.style.color = "rgb("+a +","+z+","+c+")";
+   btn1.style.border = "rgb("+a +","+z+","+c+")";
    h1.innerHTML ="RGB("+a +","+b+","+c+")";
-   h1.style.color="rgb("+x +","+b+","+y+")";
+   h1.style.color=  "rgb("+x +","+b+","+y+")";
    h1.style.background="rgb("+a +","+b+","+z+")";
 
 }
